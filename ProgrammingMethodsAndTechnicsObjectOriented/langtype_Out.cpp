@@ -1,14 +1,14 @@
 #include "langtype_atd.h"
 using namespace std;
 namespace simple_langtype {
-    void langtype::Out(langtype l, ofstream& ofst) {
-        int k = l.k;
+    void langtype::Out(ofstream& ofst) {
+        int k = this->k;
         switch (k) {
         case 1:
-            l.p.Out(ofst);
+            this->p.Out(ofst);
             break;
         case 2:
-            l.o.Out(ofst);
+            this->o.Out(ofst);
             break;
         default:
             ofst << "Incorrect language!" << endl;
