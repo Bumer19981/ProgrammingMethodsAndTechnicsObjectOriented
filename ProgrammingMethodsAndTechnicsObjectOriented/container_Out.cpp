@@ -9,7 +9,9 @@ namespace simple_langtype {
         int temp = list.size;
         while (temp != 0) {
             langtype* l = tempHead->l;
-            l->Out(*l, ofst);
+            l->Out(ofst);
+            ofst << "amount of years = "
+                << l->AmountOfYears() << endl;
             tempHead = tempHead->Next;
             temp--;
         }

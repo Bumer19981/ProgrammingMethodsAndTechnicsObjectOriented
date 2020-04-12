@@ -12,6 +12,7 @@ namespace simple_langtype {
 			void InData(ifstream& ifst);
 			void Out(ofstream& ofst);
 			procedure() {}
+			int AmountOfYears();
 		} p;
 		class objectoriented {
 			short int year;
@@ -20,10 +21,12 @@ namespace simple_langtype {
 			void InData(ifstream& ifst);
 			void Out(ofstream& ofst);
 			objectoriented() {}
+			int AmountOfYears();
 		} o;
 	public:
 		static langtype* In(ifstream& ifst);
-		static void Out(langtype l, ofstream& ofst);
+		void Out(ofstream& ofst);
+		int AmountOfYears();
 	};
 }
 #endif
