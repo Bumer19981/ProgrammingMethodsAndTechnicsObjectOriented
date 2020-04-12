@@ -32,7 +32,7 @@ namespace simple_langtype {
 		} f;
 	public:
 		static langtype* In(ifstream& ifst);
-		static void Out(langtype l, ofstream& ofst);
+		void Out(ofstream& ofst);
 	};
 }
 #endif
