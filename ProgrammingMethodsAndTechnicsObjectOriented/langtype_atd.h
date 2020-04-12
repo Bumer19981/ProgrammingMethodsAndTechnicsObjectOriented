@@ -5,6 +5,7 @@ using namespace std;
 namespace simple_langtype {
 	class langtype {
 		int k;
+		int mentions;
 		class procedure {
 			bool isAbstract;
 			short int year;
