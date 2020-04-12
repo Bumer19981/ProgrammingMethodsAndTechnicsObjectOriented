@@ -23,6 +23,7 @@ namespace simple_langtype {
             public:void In(ifstream& ifst);
             public:void Out(ofstream& ofst);
             public:void Clear(List &list);
+            public:void OutProcedure(ofstream& ofst);
             public:container();
                 ~container() { Clear(list); }
             };

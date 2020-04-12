@@ -11,6 +11,7 @@ namespace simple_langtype {
 		public:
 			void InData(ifstream& ifst);
 			void Out(ofstream& ofst);
+			void OutProcedure(ofstream& ofst);
 			procedure() {}
 		} p;
 		class objectoriented {
@@ -19,11 +20,13 @@ namespace simple_langtype {
 		public:
 			void InData(ifstream& ifst);
 			void Out(ofstream& ofst);
+			void OutProcedure(ofstream& ofst);
 			objectoriented() {}
 		} o;
 	public:
 		static langtype* In(ifstream& ifst);
 		void Out(ofstream& ofst);
+		void OutProcedure(ofstream& ofst);
 	};
 }
 #endif
