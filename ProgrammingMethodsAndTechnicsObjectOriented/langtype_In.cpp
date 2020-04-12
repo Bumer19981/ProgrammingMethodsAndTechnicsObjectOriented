@@ -14,6 +14,10 @@ namespace simple_langtype {
             l->k = 2;
             l->o.InData(ifst);
             break;
+        case 3:
+            l->k = 3;
+            l->f.InData(ifst);
+            break;
         default:
             return 0;
         }

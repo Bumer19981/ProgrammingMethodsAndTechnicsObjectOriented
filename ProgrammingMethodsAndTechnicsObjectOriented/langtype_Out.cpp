@@ -10,6 +10,9 @@ namespace simple_langtype {
         case 2:
             l.o.Out(ofst);
             break;
+        case 3:
+            l.f.Out(ofst);
+            break;
         default:
             ofst << "Incorrect language!" << endl;
         }

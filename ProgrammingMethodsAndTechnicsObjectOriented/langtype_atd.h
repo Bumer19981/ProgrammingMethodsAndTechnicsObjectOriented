@@ -21,6 +21,15 @@ namespace simple_langtype {
 			void Out(ofstream& ofst);
 			objectoriented() {}
 		} o;
+		class functional {
+			short int year;
+			enum typification { strict, dynamic } typification;
+			bool isLazyCalculations;
+		public:
+			void InData(ifstream& ifst);
+			void Out(ofstream& ofst);
+			functional() {}
+		} f;
 	public:
 		static langtype* In(ifstream& ifst);
 		static void Out(langtype l, ofstream& ofst);
