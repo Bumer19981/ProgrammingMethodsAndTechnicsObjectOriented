@@ -15,6 +15,7 @@ namespace simple_langtype {
 		} p;
 		class objectoriented {
 			short int year;
+			enum inheritance { once, multiple, interface } inheritance;
 		public:
 			void InData(ifstream& ifst);
 			void Out(ofstream& ofst);
