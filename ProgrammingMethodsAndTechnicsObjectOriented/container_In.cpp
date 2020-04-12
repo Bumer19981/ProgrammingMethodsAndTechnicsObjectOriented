@@ -6,7 +6,7 @@ namespace simple_langtype {
             langtype* l;
             if ((l = langtype::In(ifst)) != 0) {
                 list.size++;
-                container::List::Node* temp = new container::List::Node;
+                List::Node* temp = new List::Node;
                 temp->Next = list.Head;
                 temp->Prev = list.Tail;
                 temp->l = l;
