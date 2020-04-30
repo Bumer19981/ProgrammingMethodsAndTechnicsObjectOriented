@@ -25,6 +25,7 @@ namespace simple_langtype {
 		void Out(ofstream& ofst);
 		void Clear(List& list);
 		void OutProcedure(ofstream& ofst);
+		void Sort();
 		container();
 		~container() { Clear(list); }
 	};

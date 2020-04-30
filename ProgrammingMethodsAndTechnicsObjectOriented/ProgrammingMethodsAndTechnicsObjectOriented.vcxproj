@@ -149,13 +149,12 @@
   <ItemGroup>
     <ClCompile Include="amountOfYears.cpp" />
     <ClCompile Include="AmountOfYearsObjectoriented.cpp" />
-    <ClCompile Include="AmountOfYearsProcedure.cpp" />
+    <ClCompile Include="AmoutOfYearsProcedure.cpp" />
+    <ClCompile Include="compare.cpp" />
     <ClCompile Include="container_Constr.cpp" />
     <ClCompile Include="container_In.cpp" />
     <ClCompile Include="container_Out.cpp" />
-    <ClCompile Include="functional_in.cpp" />
-    <ClCompile Include="functional_out.cpp" />
-    <ClCompile Include="container_OutProcedure.cpp" />
+    <ClCompile Include="container_Sort.cpp" />
     <ClCompile Include="langtype_Out.cpp" />
     <ClCompile Include="langtype_OutProcedure.cpp" />
     <ClCompile Include="main.cpp" />

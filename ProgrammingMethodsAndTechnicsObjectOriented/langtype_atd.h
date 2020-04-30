@@ -40,6 +40,8 @@ namespace simple_langtype {
 		void Out(ofstream& ofst);
 		int AmountOfYears();
 		void OutProcedure(ofstream& ofst);
+		bool Compare(langtype& other);
+
 	};
 }
 #endif
