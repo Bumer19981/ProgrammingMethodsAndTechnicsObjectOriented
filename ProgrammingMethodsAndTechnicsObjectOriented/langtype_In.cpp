@@ -9,10 +9,17 @@ namespace simple_langtype {
         case 1:
             l->k = 1;
             l->p.InData(ifst);
+            ifst >> l->mentions;
             break;
         case 2:
             l->k = 2;
             l->o.InData(ifst);
+            ifst >> l->mentions;
+            break;
+        case 3:
+            l->k = 3;
+            l->f.InData(ifst);
+            ifst >> l->mentions;
             break;
         default:
             return 0;
