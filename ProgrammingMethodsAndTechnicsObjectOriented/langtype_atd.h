@@ -33,12 +33,14 @@ namespace simple_langtype {
 		public:
 			void InData(ifstream& ifst);
 			void Out(ofstream& ofst);
+			void OutProcedure(ofstream& ofst);
 			functional() {}
+			int AmountOfYears();
 		} f;
 	public:
 		static langtype* In(ifstream& ifst);
 		void Out(ofstream& ofst);
-		int AmountOfYears();
+		int AmountOfYears(bool IsOutProcedure);
 		void OutProcedure(ofstream& ofst);
 		bool Compare(langtype& other);
 

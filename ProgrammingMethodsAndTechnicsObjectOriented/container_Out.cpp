@@ -11,7 +11,7 @@ namespace simple_langtype {
             langtype* l = tempHead->l;
             l->Out(ofst);
             ofst << "amount of years = "
-                << l->AmountOfYears() << endl;
+                << l->AmountOfYears(false) << endl;
             tempHead = tempHead->Next;
             temp--;
         }

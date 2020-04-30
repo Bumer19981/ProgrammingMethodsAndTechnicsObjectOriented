@@ -6,9 +6,13 @@ namespace simple_langtype {
         switch (k) {
         case 1:
             this->p.OutProcedure(ofst);
+            ofst << "mentions = " << this->mentions << endl;
             break;
         case 2:
             this->o.OutProcedure(ofst);
+            break;
+        case 3:
+            this->f.OutProcedure(ofst);
             break;
         default:
             ofst << "Incorrect language!" << endl;

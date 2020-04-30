@@ -19,6 +19,7 @@ namespace simple_langtype {
         case 3:
             l->k = 3;
             l->f.InData(ifst);
+            ifst >> l->mentions;
             break;
         default:
             return 0;

@@ -7,6 +7,11 @@ namespace simple_langtype {
 		for (int i = 0; i < list.size; i++) {
 			ofst << i << ": ";
 			node->l->OutProcedure(ofst);
+			int AmountOfYears = node->l->AmountOfYears(true);
+			if (AmountOfYears != -1) {
+				ofst << "amount of years = "
+					<< AmountOfYears << endl;
+			}
 			node = node->Next;
 		}
 	}
